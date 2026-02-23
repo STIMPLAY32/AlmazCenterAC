@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Almaz Center - Об авторе</title>
+    <link rel="stylesheet" href="ACAbout.css"/>
+</head>
+<body>
+  <header>
+    <img class="posac" width='200px' src="https://i.ibb.co/m5N6wBkV/2026-02-07-13-43-16.png"/>
+    <img class="cslogo" width="90px" src="https://i.ibb.co/kg3np7Pd/2026-02-06-20-51-12-Photoroom.png"/>
+    <nav class="navigation">
+      <a class="navbutton1" href="AlmazCenterTovars.html">Все товары</a>
+      <a class="navbutton2" href="AlmazCenter.html">Главная</a>
+    </nav>
+  </header>
+  <main>
+    <h2 class="about-title">Об авторе</h2>
+    <h3 class="aboutavtor">Автор учится на программиста. Активно изучает программирование и мечтает сделать свое приложение. Мечта автора уже не за горами. Скоро придет то время мечты. Автор работает вместе с другом. И я хочу что бы люди поолучали хорошие сайт по низкой цене!</h3>
+    <section class="contact-section">
+      <h3 class="contact-title">Связь по почте</h3>
+      <p class="contact-subtitle">Напишите сообщение, и письмо будет отправлено на мою почту. Если вы хотите купить товар напишите сюда название товара и свой Telegram/VK/Whatsapp/Номер телефона для связи</p>
+      <form class="contact-form" id="contactForm">
+        <label class="contact-label" for="senderEmail">Ваша почта</label>
+        <input class="contact-input" id="senderEmail" name="email" type="email" required>
+
+        <label class="contact-label" for="senderMessage">Сообщение</label>
+        <textarea class="contact-textarea" id="senderMessage" name="message" rows="5" required></textarea>
+
+        <button class="contact-button" type="submit">Отправить</button>
+        <p class="contact-status" id="contactStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <script src="ACJS.js"></script>
+</body>
+</html>
