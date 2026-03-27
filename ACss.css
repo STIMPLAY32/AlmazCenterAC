@@ -275,12 +275,30 @@ footer {
 }
 
 .git {
-    margin-left: 820px;
-    width: 50px;
+    position: relative;
+    left: 870px;
+    top: 0px;
+    width: 40px;
     transition: all 0.3s ease-out;
     border-radius: 30px;
 }
+
 .git:hover {
+    width: 60px;
+    box-shadow: 3px 3px 3px rgb(133, 198, 216);
+    border-radius: 30px;
+}
+
+.telegram {
+    position: relative;
+    left: 760px;
+    top: 0px;
+    width: 40px;
+    transition: all 0.3s ease-out;
+    border-radius: 30px;
+}
+
+.telegram:hover {
     width: 60px;
     box-shadow: 3px 3px 3px rgb(133, 198, 216);
     border-radius: 30px;
