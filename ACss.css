@@ -233,7 +233,7 @@ footer {
 .navbutton1 {
     position: absolute;
     top: 33px;
-    right: 250px;
+    right: 330px;
     background-color: #7d93ca;
     padding: 7px;
     text-decoration: none;
@@ -255,7 +255,7 @@ footer {
 .navbutton2 {
     position: absolute;
     top: 33px;
-    right: 150px;
+    right: 230px;
     background-color: #7d93ca;
     padding: 7px;
     text-decoration: none;
@@ -325,4 +325,26 @@ footer {
 
 .buybutton:hover {
     box-shadow: 0 5px 5px 0 rgb(0, 188, 26);
+}
+
+.navbutton3 {
+    position: absolute;
+    top: 33px;
+    right: 150px;
+    background-color: #7d93ca;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+    transition: all 0.3s ease-out;
+}
+
+.navbutton3:hover {
+    background-color: #8aa1f3;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+    box-shadow: 0 5px 5px 0 rgb(169, 193, 255);
 }
